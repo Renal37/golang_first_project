@@ -1,13 +1,16 @@
 package main
+import "fmt"
+
+type Student struct {
+	name string
+}
 
 func studentName(name string) string {
-	type Student struct {
-	    name string
-	}
 	s := Student{name}
 	return s.name
 }
-func main() {	
-	println(studentName("Renal"));
-	// student := student{"alex"}
+func main() {
+	println(studentName("Renal"))
+	student := Student{"alex"}
+	fmt.Println(student)
 }
