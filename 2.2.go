@@ -3,9 +3,9 @@ import "fmt"
 
 type Age int 
 
-func (i Age) Print(){
-	i++
-	fmt.Println(i)
+func (i *Age) Print(){
+	*i++
+	fmt.Println(*i)
 }
 	
 
