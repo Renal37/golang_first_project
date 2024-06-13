@@ -1,0 +1,11 @@
+--2024-06-13 17:06:09--  http://localhost:8081/debug/pprof/trace?seconds=5
+Resolving localhost (localhost)... 127.0.0.1
+Connecting to localhost (localhost)|127.0.0.1|:8081... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [application/octet-stream]
+Saving to: ‘trace?seconds=5’
+
+     0K ...                                                    22,7M=0s
+
+2024-06-13 17:06:14 (22,7 MB/s) - ‘trace?seconds=5’ saved [3413]
+
